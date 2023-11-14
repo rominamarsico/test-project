@@ -1,9 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { Menu } from "./Menu.jsx";
+import { Menu } from "./Menu/Menu.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import { Elements } from "./Styling-Basics/Elements.jsx";
+import { Selectors } from "./Styling-Basics/Selectors.jsx";
+import { Units } from "./Styling-Basics/Units.jsx";
+import { MarginPadding } from "./Styling-Basics/Margin-Padding.jsx";
+import { ZIndex } from "./Styling-Basics/Z-Index.jsx";
+import { Flexbox } from "./Styling-Basics/Flexbox.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,12 +21,28 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "/hello",
-        element: <div>Hello world!</div>,
+        path: "/elements",
+        element: <Elements />,
       },
       {
-        path: "/about",
-        element: <div>About</div>,
+        path: "/selectors",
+        element: <Selectors />,
+      },
+      {
+        path: "/units",
+        element: <Units />,
+      },
+      {
+        path: "/margin-padding",
+        element: <MarginPadding />,
+      },
+      {
+        path: "/z-index",
+        element: <ZIndex />,
+      },
+      {
+        path: "/flexbox",
+        element: <Flexbox />,
       },
     ],
   },

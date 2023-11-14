@@ -2,7 +2,7 @@ import "./Card.css";
 
 export function Card({ title, link, logo }) {
   return (
-    <div className={"wrapper"}>
+    <div className="wrapper">
       <div className="logo-box">
         <img src={logo} />
       </div>

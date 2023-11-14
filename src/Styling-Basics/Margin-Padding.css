@@ -1,0 +1,8 @@
+.button {
+  background-color: lightcoral;
+  /* add margin, padding, border */
+  margin: 1rem;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  border: 5px solid blue;
+}

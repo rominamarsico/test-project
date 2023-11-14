@@ -1,8 +1,9 @@
 .wrapper {
+  width: 20rem;
   display: flex;
   border: 1px solid grey;
   border-radius: 5px;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
 
 .logo-box {

@@ -6,6 +6,7 @@ import { Hello } from "./Hello";
 import { Card } from "./Card/Card";
 import { MultiplyOld, HooksOld } from "./Hooks/Hooks-old";
 import { Hooks } from "./Hooks/Hooks";
+import { InputField } from "./InputField";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,7 +16,7 @@ function App() {
   return (
     <>
       {/* commentar */}
-      <MultiplyOld />
+      <InputField />
 
       <Card title="React" link="https://react.dev/" logo={reactLogo} />
       <Card title="Vite" link="https://vitejs.dev/" logo={viteLogo} />

@@ -1,0 +1,26 @@
+.flexbox-container {
+  background-color: lightblue;
+  width: 100%;
+  /* add flexbox, flex-direction, justify-content, gap */
+  display: flex;
+  gap: 1rem;
+}
+
+.light-box {
+  background-color: coral;
+  width: 5rem;
+  height: 5rem;
+  flex-grow: 1;
+}
+
+.dark-box {
+  background-color: purple;
+  width: 5rem;
+  height: 10rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
