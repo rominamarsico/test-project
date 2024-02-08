@@ -5,12 +5,11 @@ export function Menu() {
   return (
     <>
       <div className="menu-container">
-        <Link to="/elements">HTML Elements</Link>
-        <Link to="/selectors">Selectors</Link>
-        <Link to="/units">Units</Link>
-        <Link to="/margin-padding">Margin vs. Padding</Link>
-        <Link to="/z-index">Z-Index</Link>
-        <Link to="/flexbox">Flexbox</Link>
+        <Link to="/">App</Link>
+        <Link to="/map">Map</Link>
+        <Link to="/filter">Filter</Link>
+        <Link to="/currency">Currency</Link>
+        <Link to="/vacation">Vacation</Link>
       </div>
 
       <Outlet />

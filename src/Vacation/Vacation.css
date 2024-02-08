@@ -1,0 +1,34 @@
+.vacationButtonContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.vacationButton {
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+.vacationButton:hover {
+  border: 2px solid lightblue;
+}
+
+.vacationButton:focus {
+  outline: none;
+  background-color: lightblue;
+}
+
+.imageContainer {
+  margin-top: 1rem;
+}
+
+/* style Mui component */
+.toggleButton {
+  color: green !important; /* <- Styles mit !important überschreiben */
+
+  /* <- Klassenname in den Browser Dev Tools gefunden */
+  &.Mui-selected {
+    background-color: rgba(7, 105, 48, 0.2) !important;
+  }
+}

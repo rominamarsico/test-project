@@ -4,9 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Hello } from "./Hello";
 import { Card } from "./Card/Card";
-import { MultiplyOld, HooksOld } from "./Hooks/Hooks-old";
-import { Hooks } from "./Hooks/Hooks";
 import { InputField } from "./InputField";
+import { MuiInput } from "./MuiInput";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +15,9 @@ function App() {
   return (
     <>
       {/* commentar */}
+
+      <MuiInput />
+
       <InputField />
 
       <Card title="React" link="https://react.dev/" logo={reactLogo} />
